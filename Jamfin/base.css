@@ -78,6 +78,7 @@ html {
     background-color: unset;
 }
 
+/*
 .headerTabs,
 .headerRight,
 .dialog,
@@ -108,7 +109,7 @@ html {
     -o-backdrop-filter: blur(var(--theme-blur)) !important;
     -ms-backdrop-filter: blur(var(--theme-blur)) !important;
 }
-
+*/
 .dialogBackdrop {
     background-color: #111;
 }
