@@ -1,3 +1,7 @@
+.testingset {
+    outline: none;
+}
+
 :root {
     /* Colours */
     --theme-background-colour: #101010;
