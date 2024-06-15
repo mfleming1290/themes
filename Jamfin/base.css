@@ -78,7 +78,7 @@ html {
     background-color: unset;
 }
 
-/*
+
 .headerTabs,
 .headerRight,
 .dialog,
@@ -100,16 +100,16 @@ html {
 .guide-date-tab-button:focus,
 .MuiTabs-centered .MuiTab-root {
     color: var(--theme-text-colour);
-    border-radius: var(--theme-roundness);
+    // border-radius: var(--theme-roundness);
     box-shadow: inset 0 1px var(--theme-menu-shadow-colour);
-    background-color: var(--theme-menu-background-colour);
+    // background-color: var(--theme-menu-background-colour);
     backdrop-filter: blur(var(--theme-blur));
     -webkit-backdrop-filter: blur(var(--theme-blur)) !important;
     -moz-backdrop-filter: blur(var(--theme-blur)) !important;
     -o-backdrop-filter: blur(var(--theme-blur)) !important;
     -ms-backdrop-filter: blur(var(--theme-blur)) !important;
 }
-*/
+
 .dialogBackdrop {
     background-color: #111;
 }
