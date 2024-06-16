@@ -1,11 +1,3 @@
-.itemscontainer .raised  {
-    background-color: #03fcc2 !important;
-}
-
-.fab, .raised {
-background-color: #101010 !important;
-}
-
 :root {
     /* Colours */
     --theme-background-colour: #101010;
@@ -24,6 +16,15 @@ background-color: #101010 !important;
     --theme-roundness: .75rem;
     --theme-blur: 16px;
 }
+
+.itemscontainer .raised  {
+    background-color: #03fcc2 !important;
+}
+
+.fab, .raised {
+background-color: #101010 !important;
+}
+
 
 /* Remove the Default Focus Outline */
 *:focus-visible {
