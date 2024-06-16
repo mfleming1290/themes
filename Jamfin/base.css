@@ -1,5 +1,9 @@
-.testingset {
-    outline: none;
+.itemscontainer .raised  {
+    background-color: #03fcc2 !important;
+}
+
+.fab, .raised {
+background-color: #101010 !important;
 }
 
 :root {
@@ -101,13 +105,16 @@ html {
 .MuiTabs-centered .MuiTab-root {
     color: var(--theme-text-colour);
     // border-radius: var(--theme-roundness);
-    box-shadow: inset 0 1px var(--theme-menu-shadow-colour);
+    // box-shadow: inset 0 1px var(--theme-menu-shadow-colour);
     // background-color: var(--theme-menu-background-colour);
     backdrop-filter: blur(var(--theme-blur));
     -webkit-backdrop-filter: blur(var(--theme-blur)) !important;
     -moz-backdrop-filter: blur(var(--theme-blur)) !important;
     -o-backdrop-filter: blur(var(--theme-blur)) !important;
     -ms-backdrop-filter: blur(var(--theme-blur)) !important;
+    
+
+
 }
 
 .dialogBackdrop {
@@ -271,7 +278,7 @@ html {
 
 .cardOverlayContainer {
     border-radius: var(--theme-roundness) !important;
-    background: unset;
+    // background: unset;
     box-shadow: inset 0 2px var(--theme-menu-shadow-colour) !important;
     transition: unset;
 }
