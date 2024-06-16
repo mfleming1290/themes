@@ -17,6 +17,10 @@
     --theme-blur: 16px;
 }
 
+.btnUserRating{display:none;} button[is="emby-ratingbutton"]{display:none;} .noHomeButtonHeader button[data-index="1"]{display:none;} button[data-index="3"]{display:none;}
+
+.btnUserRating{display:none;} button[is="emby-ratingbutton"]{display:none;} .noHomeButtonHeader button[data-index="0"]{display:none;} button[data-index="3"]{display:none;}
+
 .itemscontainer .raised  {
     background-color: #03fcc2 !important;
 }
